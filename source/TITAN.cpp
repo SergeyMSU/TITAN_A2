@@ -36,8 +36,8 @@ int main()
     // —читываем физические параметры и геометрическое положение узлов из файла (предыдущего расчЄта)
     //S1.Download_cell_parameters("parameters_0060.bin");   
 
-    S1.Download_cell_parameters("parameters_0065.bin");
-    //S1.Download_cell_parameters("parameters_0073.bin");
+    //S1.Download_cell_parameters("parameters_0065.bin");
+    S1.Download_cell_parameters("parameters_0074.bin");
 
     // 71 до включени€ фигни на HP  -> 70 -> 72  -> отключил все костыли  -> 73
 
