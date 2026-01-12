@@ -35,7 +35,7 @@ void Setka::Algoritm(short int alg, Setka* Smain)
 
 		//this->Go(true, 10000, 1); // 400   1
 
-		for (int i = 1; i <= 8 * 6; i++) // 6 * 2   12 * 5
+		for (int i = 1; i <= 8 * 8; i++) // 6 * 2   12 * 5
 		{
 			auto start = std::chrono::high_resolution_clock::now();
 			cout << "IIIII = " << i << endl;
@@ -96,7 +96,7 @@ void Setka::Algoritm(short int alg, Setka* Smain)
 
 			//this->Init_physics();
 
-			if (i % 8 == 0)
+			if (i % 24 == 0)
 			{
 				string namn = "parameters_promeg_11" + to_string(i) + ".bin";
 				this->Save_cell_parameters(namn);
